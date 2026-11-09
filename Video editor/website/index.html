@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Download CapCutMini — a free, offline-first Android video editor with multi-clip editing, fades, subtitles, and audio mix."
+    />
+    <title>CapCutMini — Download</title>
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header wrap">
+      <div class="brand">
+        <img src="assets/logo.svg" width="52" height="52" alt="CapCutMini logo" />
+        <div>
+          <h1>CapCutMini</h1>
+          <p>Free offline Android video editor</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero wrap">
+        <div class="hero-card">
+          <span class="eyebrow">Direct APK download</span>
+          <h2>Edit on your phone. Stay offline-first.</h2>
+          <p class="lead">
+            CapCutMini is a lightweight Android video editor built with Kotlin, Jetpack Compose,
+            and Media3. Pick multiple clips, trim, fade, add audio and subtitles, then export an
+            MP4 — without accounts or cloud lock-in.
+          </p>
+
+          <div class="meta-row" aria-live="polite">
+            <span>Version <strong id="version-name">…</strong></span>
+            <span>Build <strong id="version-code">…</strong></span>
+            <span>Released <strong id="released-at">…</strong></span>
+            <span>Requires <strong id="min-android">…</strong></span>
+          </div>
+
+          <div class="actions">
+            <a
+              id="download-btn"
+              class="btn btn-primary"
+              href="#"
+              aria-disabled="true"
+              >Download APK</a
+            >
+            <a class="btn btn-secondary" href="#install">Install help</a>
+          </div>
+          <p id="download-status" class="status" role="status"></p>
+        </div>
+      </section>
+
+      <section class="wrap" aria-labelledby="features-heading">
+        <h2 id="features-heading" class="visually-hidden" style="position: absolute; left: -9999px">
+          Features
+        </h2>
+        <div class="grid features">
+          <article class="panel">
+            <h3>Multi-clip timeline</h3>
+            <p>
+              Select several videos in one session, stage thumbnails, reorder clips, and keep your
+              edit order for export.
+            </p>
+          </article>
+          <article class="panel">
+            <h3>Videos browser</h3>
+            <p>
+              Browse device videos in a scrollable grid, or open folders through the system picker
+              with scoped storage permissions.
+            </p>
+          </article>
+          <article class="panel">
+            <h3>Add Audio</h3>
+            <p>
+              Attach MP3, WAV, or M4A tracks with trim, volume, and start offset — mixed into the
+              exported MP4 with your clip audio.
+            </p>
+          </article>
+          <article class="panel">
+            <h3>Effects &amp; export</h3>
+            <p>
+              Fades, transitions, trim, manual subtitles, ExoPlayer preview, and Media3 Transformer
+              MP4 export — all on-device.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="wrap" id="install" aria-labelledby="install-heading">
+        <article class="panel">
+          <h3 id="install-heading">Install on Android</h3>
+          <ol class="steps">
+            <li>Tap <strong>Download APK</strong> on this page (or open the GitHub Release asset).</li>
+            <li>
+              If Android blocks the install, open the notification or
+              <em>Settings → Apps → Special access → Install unknown apps</em> and allow your browser
+              or Files app once.
+            </li>
+            <li>Open the downloaded <code>.apk</code> and tap <strong>Install</strong>.</li>
+            <li>
+              Future updates: install the newer CapCutMini APK over this one. Keep the same app ID
+              (<strong id="application-id">com.capcutmini.app</strong>) and the same release
+              signing key — no uninstall required.
+            </li>
+          </ol>
+          <p>
+            Tip: uninstalling deletes local projects. Prefer updating over the existing install.
+          </p>
+        </article>
+      </section>
+
+      <section class="wrap" aria-labelledby="notes-heading" style="margin: 1rem 0 2rem">
+        <article class="panel">
+          <h3 id="notes-heading">Release notes</h3>
+          <ul id="release-notes"></ul>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap">
+      <p>CapCutMini · package <code>com.capcutmini.app</code></p>
+      <p>
+        Version info loads from <code>version.json</code>. This site is static and ready for
+        Cloudflare Pages.
+      </p>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

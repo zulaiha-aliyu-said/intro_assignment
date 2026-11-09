@@ -21,8 +21,12 @@ captures/
 app/release/
 app/build/
 *.keystore
+*.jks
 !debug.keystore
+keystore.properties
+signing/
 .kotlin/
 .tools/
 build-env-check.txt
 local.properties
+website/dist/

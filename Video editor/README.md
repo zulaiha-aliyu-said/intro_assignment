@@ -57,4 +57,21 @@ Or install + launch via Gradle:
 sdk.dir=C\:\\Users\\YOUR_USER\\AppData\\Local\\Android\\Sdk
 ```
 
+## Release APK & public download
+
+- App ID (stable): `com.capcutmini.app`
+- Version: see `versionName` / `versionCode` in `app/build.gradle.kts`
+- Signing: local `keystore.properties` + `signing/` (gitignored) — see `docs/DISTRIBUTION.md`
+- Download site (static): `website/` — Cloudflare Pages–ready; update `website/version.json` after each release
+- GitHub Releases steps: `docs/GITHUB_RELEASES.md`
+
+```powershell
+.\scripts\create-release-keystore.ps1   # once
+.\gradlew.bat :app:assembleRelease
+```
+
+Release APK: `app\build\outputs\apk\release\app-release.apk`
+
+GitHub and Cloudflare are **not** auto-connected by this repo; follow the docs after you push and create a Release.
+
 See `docs/DEPENDENCIES.md` for every library and why it is included.

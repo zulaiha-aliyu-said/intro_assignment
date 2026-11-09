@@ -1,0 +1,17 @@
+{
+  "applicationId": "com.capcutmini.app",
+  "versionName": "0.3.0",
+  "versionCode": 1,
+  "releasedAt": "2026-11-09",
+  "apkFileName": "CapCutMini-0.3.0.apk",
+  "downloadUrl": "",
+  "minAndroid": "8.0 (API 26)",
+  "sha256": "",
+  "releaseNotes": [
+    "Multi-video selection with staging, thumbnails, and timeline reorder",
+    "Videos tab MediaStore browser with scoped storage permissions",
+    "Add Audio (MP3/WAV/M4A) with trim, volume, start offset, and export mix",
+    "Preview, trim/split, fades, transitions, subtitles, and MP4 export preserved"
+  ],
+  "changelogUrl": ""
+}
