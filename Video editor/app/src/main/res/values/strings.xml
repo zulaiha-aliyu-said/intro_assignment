@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CapCutMini</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_projects">Projects</string>
+    <string name="nav_editor">Editor</string>
+    <string name="nav_ai_studio">AI Studio</string>
+    <string name="select_video">Select videos</string>
+    <string name="add_audio">Add Audio</string>
+    <string name="videos_tab">Videos</string>
+    <string name="no_video_selected">No video selected yet</string>
+    <string name="ai_studio_placeholder">AI video tools will land in a later milestone. CapCutMini stays free and offline-first.</string>
+    <string name="export_not_ready">Export is not implemented yet.</string>
+    <string name="effects_panel">Effects / Transitions</string>
+    <string name="export_mp4">Export MP4</string>
+</resources>
